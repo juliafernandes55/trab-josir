@@ -1,4 +1,4 @@
-import pandas as pd import streamlit as st
+import pandas as pd 
 import streamlit as st
 
 st.title("Gerador de Gráfico a Partir de Arquivo CSV")
