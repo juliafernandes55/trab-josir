@@ -13,4 +13,4 @@ x_col = st.selectbox("Escolha a coluna para o eixo X (categorias)", colunas)
 y_col = st.selectbox("Escolha a coluna para o eixo Y (valores)", colunas)
 
 st.subheader ("Gráfico de Barras")
-st.bar_chart (data-df, x=x_col, y=y_col, use_container_width=True)
+st.bar_chart (data=df, x=x_col, y=y_col, use_container_width=True)
