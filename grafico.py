@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("Gerador de Gráfico a Partir de Arquivo CSV")
 
-df = pd.read_csv('https://perfil-i.ibict.br/media/uploads/user_sum.csv*)
+df = pd.read_csv('https://perfil-i.ibict.br/media/uploads/user_sum.csv')
                  
 st. subheader ("Dados Carregados")
 st. write(df.head())
